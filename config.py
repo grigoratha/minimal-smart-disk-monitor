@@ -1,7 +1,7 @@
 SMARTCTL_PATH = r"C:\Program Files\Utilities\SmartCTL\bin\smartctl.exe"
 
 # Interval in seconds
-CHECK_INTERVAL = 3600 
+CHECK_INTERVAL = 21600 
 
 # Temperature thresholds
 TEMP_WARNING = 55
