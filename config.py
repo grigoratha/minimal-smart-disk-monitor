@@ -1,3 +1,5 @@
+APP_NAME = "Disk Monitor"
+
 SMARTCTL_PATH = r"C:\Program Files\Utilities\SmartCTL\bin\smartctl.exe"
 
 # Interval in seconds

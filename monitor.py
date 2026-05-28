@@ -181,7 +181,7 @@ def estimate_sata_disk_health(device: dict) -> float:
 
     health = 100.0
     smart_status_passed = device.get("smart_status_passed", False)
-    attributes = device.get("attributes", [])
+    attributes = device.get("attributes", {})
 
     if attributes.get("Reallocated_Sector_Ct", 0) > 0:
         health -= min(40, attributes["Reallocated_Sector_Ct"] * 2)
@@ -223,7 +223,7 @@ def estimate_nvme_disk_health(device: dict) -> float:
     health = 100.0
     smart_status_passed = device.get("smart_status_passed", False)
     temperature = device.get("temperature", 100)
-    attributes = device.get("attributes", [])
+    attributes = device.get("attributes", {})
 
     percentage_used = attributes.get("percentage_used", 0)
     health -= percentage_used
