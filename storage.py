@@ -14,10 +14,22 @@ def update_latest(devices: dict):
     with open(LATEST_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=4)
 
-    logger.info("Report file has been updated")
+    logger.info("✅️ Report file has been updated")
 
+def read_latest():
+    if not LATEST_FILE.exists():
+        return None
+
+    try:
+        with open(LATEST_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    except json.JSONDecodeError:
+        logger.error("Failed to read latest report file")
+
+        return None
+    
 def update_archive(devices: dict):
-
     payload = {
         "timestamp": datetime.now().isoformat(),
         "devices": devices
@@ -39,4 +51,17 @@ def update_archive(devices: dict):
     with open(ARCHIVE_FILE, "w", encoding="utf-8") as f:
         json.dump(archive, f, indent=4)
 
-    logger.info("Archive file has been updated")
+    logger.info("✅️ Archive file has been updated")
+
+def read_archive():
+    if not ARCHIVE_FILE.exists():
+        return []
+
+    try:
+        with open(ARCHIVE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    except json.JSONDecodeError:
+        logger.error("Failed to read archive file")
+
+        return []
