@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-28T16:49:54.381331",
+    "timestamp": "2026-05-28T17:32:23.009692",
     "devices": {
         "50026B73817E4D3E": {
             "model_name": "KINGSTON SA400S37480G",
@@ -33,7 +33,7 @@
             "model_name": "WD_BLACK SN770 1TB",
             "protocol": "NVMe",
             "health": 100.0,
-            "temperature": 48,
+            "temperature": 49,
             "smart_status_passed": true
         }
     }

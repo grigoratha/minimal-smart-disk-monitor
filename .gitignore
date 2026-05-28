@@ -1,0 +1,36 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+
+venv/
+.env/
+
+# PyInstaller
+
+build/
+dist/
+*.spec
+
+# Logs
+
+*.log
+
+# Runtime files
+
+latest.json
+archive.json
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+Thumbs.db
+.DS_Store
