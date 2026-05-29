@@ -88,8 +88,8 @@ def background_disk_monitor():
 
 if __name__ == "__main__":
     threading.Thread(
-        target=background_disk_monitor,
+        target=background_disk_monitor, 
         daemon=True
     ).start()
-
+    
     run_tray()

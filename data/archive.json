@@ -198,5 +198,525 @@
                 "smart_status_passed": true
             }
         }
+    },
+    {
+        "timestamp": "2026-05-28T22:02:07.309820",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 26,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 25,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 38,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T11:07:19.641792",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 30,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T11:09:11.078569",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 30,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T11:11:53.267922",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 30,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T11:14:42.092342",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T11:16:37.588623",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T11:35:06.594961",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T12:26:31.964508",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T16:29:10.528729",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T17:25:07.835094",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T17:26:46.367331",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T17:26:53.002709",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-29T17:27:30.685167",
+        "devices": {
+            "50026B73817E4D3E": {
+                "model_name": "KINGSTON SA400S37480G",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 29,
+                "smart_status_passed": true
+            },
+            "WD-WCC6Z1EYSASV": {
+                "model_name": "WDC WD5000AZLX-60K2TA0",
+                "protocol": "ATA",
+                "health": 90.0,
+                "temperature": 33,
+                "smart_status_passed": true
+            },
+            "RB050A1C255A5J": {
+                "model_name": "HGST HTS545050A7E680",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 28,
+                "smart_status_passed": true
+            },
+            "19BYPDUNT": {
+                "model_name": "TOSHIBA MQ01ABF050",
+                "protocol": "ATA",
+                "health": 100.0,
+                "temperature": 31,
+                "smart_status_passed": true
+            },
+            "24522U801400": {
+                "model_name": "WD_BLACK SN770 1TB",
+                "protocol": "NVMe",
+                "health": 100.0,
+                "temperature": 44,
+                "smart_status_passed": true
+            }
+        }
     }
 ]

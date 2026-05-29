@@ -2,17 +2,21 @@ import json
 import subprocess
 
 from config import SMARTCTL_PATH
+from logger import *
 
 def run_cmd(cmd):
-    result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
-
-    return result.stdout
-
+    return subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=20,
+            creationflags=subprocess.CREATE_NO_WINDOW
+        )
 
 def smartctl_scan_drives():
-    raw = run_cmd(f'"{SMARTCTL_PATH}" --scan --json')
-
-    data = json.loads(raw)
+    result = run_cmd([SMARTCTL_PATH, "--scan", "--json"])
+    
+    data = json.loads(result.stdout)
 
     return [d["name"] for d in data.get("devices", [])]
 
@@ -20,17 +24,11 @@ def smartctl_device_smart_report(device):
     cmd = [SMARTCTL_PATH, "-a", "--json", device]
 
     try:
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            errors="replace"
-        )
+        result = run_cmd(cmd)
 
         if result.returncode != 0 and not result.stdout:
-            print(f"smartctl failed for {device}")
-            print(result.stderr)
+            logger.error(f"smartctl failed for {device}")
+            logger.error(result.stderr)
             return None
 
         data = json.loads(result.stdout)
@@ -38,11 +36,11 @@ def smartctl_device_smart_report(device):
         return parse_smartctl_report(data)
 
     except json.JSONDecodeError as e:
-        print(f"JSON decode error for {device}: {e}")
+        logger.error(f"JSON decode error for {device}: {e}")
         return None
 
     except Exception as e:
-        print(f"Unexpected error for {device}: {e}")
+        logger.error(f"Unexpected error for {device}: {e}")
         return None
     
 def smartctl_scan_smart_report():
@@ -242,7 +240,6 @@ def estimate_nvme_disk_health(device: dict) -> float:
     media_errors = attributes.get("media_errors", 0)
     health -= min(30, media_errors * 5)
 
-   
     if temperature is not None:
         if temperature > 70:
             health -= 20

@@ -5,8 +5,8 @@ from PIL import Image
 from pathlib import Path
 from pystray import MenuItem as Item
 
-from toast import show_notification
-from config import APP_NAME
+from toast import show_notification, show_toast
+from config import APP_NAME, resource_path
 from monitor import *
 from logger import *
 
@@ -16,7 +16,7 @@ ICON_PATH = BASE_DIR / "assets" / "hdd.png"
 
 # Menu events
 def on_show_info(icon, item):
-    show_notification("Disk Monitor", "\n💽 Scanning disks . . .")
+    show_toast("Disk Monitor", "\n💽 Scanning disks . . .")
 
     threading.Thread(
         target=run_smart_scan, 
