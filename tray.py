@@ -7,6 +7,7 @@ from pystray import MenuItem as Item
 
 from toast import show_notification, show_toast
 from config import APP_NAME, resource_path
+from graph import run_dashboard
 from monitor import *
 from logger import *
 
@@ -20,6 +21,13 @@ def on_show_info(icon, item):
 
     threading.Thread(
         target=run_smart_scan, 
+        daemon=True
+    ).start()
+
+def on_show_graph(icon, item):
+    threading.Thread(
+        target=run_dashboard,
+        kwargs={"days": 30},
         daemon=True
     ).start()
 
@@ -63,6 +71,7 @@ def run_tray():
         title=APP_NAME,
         menu=pystray.Menu(
             Item("SMART Info", on_show_info),
+            Item("Disk Dashboard", on_show_graph),
             pystray.Menu.SEPARATOR,
             Item("Exit", on_exit),
         ),
